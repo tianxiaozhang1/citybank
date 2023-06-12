@@ -1,0 +1,1322 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Aldrich:wght@400;500;600;700;800;900&display=swap");
+
+/* visa logo */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:700italic);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  /* --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1); */
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.chinese-text{
+  font-family:"Microsoft YaHei", 微软雅黑;
+}
+
+.home-full-width {
+  min-height: 260px;
+  width: 1280px;
+  padding: 30px;
+  margin-top: 10px;
+  margin: 10px;
+  border-radius: 36px;
+  display: flex;
+  /* justify-content: center;
+  align-items: left; */
+  flex-direction: column;
+  background: #fff;
+  /* margin: 10px 4px; */
+  box-shadow: 0px 2px 2px 4px rgba(62, 62, 62, 0.1);
+  transition: 0.3s;
+}
+
+.home-half-width {
+  min-height: 320px;
+  width: 626px;
+  padding: 20px;
+  padding-left: 32px;
+  /* margin-top: 10px;
+  margin: 10px; */
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 36px;
+  display: flex;
+  /* justify-content: center;
+  align-items: left; */
+  flex-direction: column;
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+  box-shadow: 0px 1px 2px 2px rgba(62, 62, 62, 0.1);
+  transition: 0.3s;
+}
+
+.withbar-half-width {
+  min-height: 320px;
+  width: 522px;
+  padding: 20px;
+  padding-left: 32px;
+  /* margin-top: 10px;
+  margin: 10px; */
+  margin-left: 6px;
+  margin-right: 6px;
+  border-radius: 36px;
+  display: flex;
+  /* justify-content: center;
+  align-items: left; */
+  flex-direction: column;
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+  box-shadow: 0px 1px 2px 2px rgba(62, 62, 62, 0.1);
+  transition: 0.3s;
+}
+
+.home-quarter-width {
+  min-height: 210px;
+  width: 310px;
+  padding: 12px;
+  padding-left: 6px;
+  padding-right: 12px;
+  margin-top: 10px;
+  margin: 6px;
+  border-radius: 32px;
+  display: flex;
+  /* justify-content: center;
+  align-items: left; */
+  flex-direction: column;
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+  box-shadow: 1px 1px 2px 2px rgba(122, 122, 122, 0.1);
+  /* border-color: #214d76; */
+  transition: 0.3s;
+}
+
+.home-three-quarters-width {
+  min-height: 356px;
+  width: 942px;
+  padding: 32px;
+  padding-left: 46px;
+  /* padding-right: 46px; */
+  margin-top: 10px;
+  margin: 6px;
+  border-radius: 32px;
+  display: flex;
+  /* justify-content: center;
+  align-items: left; */
+  flex-direction: column;
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+  box-shadow: 1px 1px 2px 2px rgba(122, 122, 122, 0.1);
+  /* border-color: #214d76; */
+  transition: 0.3s;
+}
+
+.home-quarter-width {
+  min-height: 210px;
+  width: 308px;
+  /* padding: 12px;
+  padding-left: 6px;
+  padding-right: 12px; */
+  margin-top: 10px;
+  margin: 6px;
+  border-radius: 32px;
+  display: flex;
+  /* justify-content: center;
+  align-items: left; */
+  flex-direction: column;
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+  box-shadow: 1px 1px 2px 2px rgba(122, 122, 122, 0.1);
+  /* border-color: #214d76; */
+  transition: 0.3s;
+}
+
+.home-two-thirds-width {
+  min-height: 210px;
+  width: 840px;
+  padding: 12px;
+  padding-left: 6px;
+  padding-right: 12px;
+  margin-top: 10px;
+  margin: 6px;
+  border-radius: 32px;
+  display: flex;
+  /* justify-content: center;
+  align-items: left; */
+  flex-direction: column;
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+  box-shadow: 1px 1px 2px 2px rgba(122, 122, 122, 0.1);
+  /* border-color: #214d76; */
+  transition: 0.3s;
+}
+
+.home-third-width {
+  min-height: 210px;
+  width: 420px;
+  padding: 22px;
+  /* padding-left: 6px;
+  padding-right: 12px; */
+  margin-top: 10px;
+  margin: 6px;
+  border-radius: 32px;
+  display: flex;
+  /* justify-content: center;
+  align-items: left; */
+  flex-direction: column;
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+  box-shadow: 1px 1px 2px 2px rgba(122, 122, 122, 0.1);
+  /* border-color: #214d76; */
+  transition: 0.3s;
+}
+
+.university-ready-gradient{
+  background-image: linear-gradient(
+  45deg,
+  hsl(1deg 53% 38%) 0%,
+  hsl(9deg 55% 42%) 14%,
+  hsl(15deg 58% 46%) 29%,
+  hsl(21deg 60% 50%) 43%,
+  hsl(27deg 69% 53%) 57%,
+  hsl(32deg 78% 56%) 71%,
+  hsl(37deg 87% 58%) 86%,
+  hsl(42deg 95% 61%) 100%
+);
+}
+
+.bank-tools-gradient{
+  background-image: linear-gradient(
+  90deg,
+  hsl(107deg 23% 35%) 0%,
+  hsl(102deg 22% 39%) 14%,
+  hsl(98deg 22% 43%) 29%,
+  hsl(94deg 22% 46%) 43%,
+  hsl(90deg 22% 50%) 57%,
+  hsl(86deg 25% 54%) 71%,
+  hsl(82deg 29% 58%) 86%,
+  hsl(79deg 34% 61%) 100%
+);
+}
+
+.business-insurance-gradient{
+  background-image: linear-gradient(
+  115deg,
+  hsl(339deg 52% 58%) 0%,
+  hsl(351deg 63% 64%) 15%,
+  hsl(3deg 75% 68%) 30%,
+  hsl(14deg 86% 69%) 45%,
+  hsl(23deg 91% 68%) 60%,
+  hsl(32deg 90% 68%) 79%,
+  hsl(42deg 84% 68%) 100%
+);
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.refinance-myth-gradient{
+  background:linear-gradient(to right, #1E2732 0%, #1E2732 20%, #343041 20%, #343041 40%, #454659 40%, #454659 60%, #535164 60%, #535164 80%, #625C6E 80%, #625C6E 100%);}
+
+.rate-change-gradient{
+  background-image: linear-gradient(
+  0deg,
+  hsl(282deg 28% 61%) 0%,
+  hsl(273deg 27% 57%) 13%,
+  hsl(264deg 25% 54%) 25%,
+  hsl(255deg 24% 51%) 37%,
+  hsl(246deg 24% 48%) 50%,
+  hsl(236deg 28% 44%) 63%,
+  hsl(227deg 38% 38%) 75%,
+  hsl(219deg 53% 32%) 87%,
+  hsl(208deg 100% 23%) 100%
+);
+}
+
+.rate-change-text-gradient{
+  background-image: linear-gradient(
+  90deg,
+  hsl(47deg 99% 68%) 0%,
+  hsl(43deg 92% 64%) 17%,
+  hsl(38deg 86% 60%) 33%,
+  hsl(35deg 81% 56%) 50%,
+  hsl(31deg 75% 53%) 67%,
+  hsl(26deg 71% 49%) 83%,
+  hsl(21deg 73% 46%) 100%
+);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.vacation-home-gradient{
+  background-image: linear-gradient(
+    180deg,
+    hsl(187deg 34% 52%) 0%,
+    hsl(193deg 39% 57%) 29%,
+    hsl(198deg 43% 63%) 46%,
+    hsl(204deg 46% 69%) 58%,
+    hsl(211deg 47% 74%) 69%,
+    hsl(220deg 48% 79%) 81%,
+    hsl(234deg 46% 84%) 100%
+  );}
+
+  .late-night-gradient{
+    background-image: linear-gradient(
+  180deg,
+  hsl(220deg 63% 19%) 0%,
+  hsl(217deg 66% 20%) 17%,
+  hsl(215deg 70% 21%) 33%,
+  hsl(212deg 74% 22%) 50%,
+  hsl(210deg 78% 22%) 67%,
+  hsl(207deg 84% 23%) 83%,
+  hsl(205deg 90% 23%) 100%
+);
+  }
+
+.energy-savings-gradient{
+  background-image: linear-gradient(
+  135deg,
+  hsl(106deg 24% 42%) 0%,
+  hsl(127deg 23% 41%) 29%,
+  hsl(143deg 29% 37%) 46%,
+  hsl(155deg 36% 34%) 58%,
+  hsl(164deg 42% 31%) 69%,
+  hsl(171deg 48% 29%) 81%,
+  hsl(177deg 53% 27%) 100%
+);
+}
+
+.invest-tips-gradient{
+  background-image: linear-gradient(
+  115deg,
+  hsl(139deg 45% 30%) 0%,
+  hsl(131deg 36% 33%) 15%,
+  hsl(124deg 30% 36%) 30%,
+  hsl(115deg 27% 39%) 45%,
+  hsl(108deg 27% 40%) 60%,
+  hsl(101deg 27% 42%) 79%,
+  hsl(96deg 26% 44%) 100%
+);
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.invest-questions-gradient{
+  background-image: linear-gradient(
+  125deg,
+  hsl(219deg 27% 33%) 0%,
+  hsl(218deg 32% 27%) 29%,
+  hsl(216deg 42% 21%) 51%,
+  hsl(214deg 61% 15%) 69%,
+  hsl(212deg 100% 9%) 84%,
+  hsl(0deg 0% 0%) 100%
+);
+}
+
+.contact-gradient{
+  background-image: linear-gradient(
+  180deg,
+  hsl(0deg 0% 96%) 0%,
+  hsl(203deg 17% 95%) 17%,
+  hsl(203deg 27% 94%) 33%,
+  hsl(203deg 34% 92%) 50%,
+  hsl(202deg 39% 91%) 67%,
+  hsl(202deg 43% 90%) 83%,
+  hsl(202deg 46% 88%) 100%
+);
+
+}
+
+.banking-gradient {
+  background-image: linear-gradient(
+  90deg,
+  hsl(11deg 79% 46%) 0%,
+  hsl(3deg 67% 49%) 14%,
+  hsl(356deg 63% 49%) 29%,
+  hsl(351deg 64% 48%) 43%,
+  hsl(347deg 63% 47%) 57%,
+  hsl(343deg 60% 46%) 71%,
+  hsl(339deg 55% 45%) 86%,
+  hsl(335deg 50% 44%) 100%
+);
+}
+
+.insurance-gradient {
+  background-image: linear-gradient(
+  90deg,
+  hsl(336deg 45% 48%) 0%,
+  hsl(333deg 47% 46%) 11%,
+  hsl(331deg 49% 44%) 22%,
+  hsl(328deg 52% 43%) 33%,
+  hsl(326deg 54% 41%) 44%,
+  hsl(323deg 57% 39%) 56%,
+  hsl(321deg 60% 37%) 67%,
+  hsl(318deg 63% 36%) 78%,
+  hsl(315deg 67% 34%) 89%,
+  hsl(312deg 70% 32%) 100%
+);
+}
+
+.investment-gradient {
+  background-image: linear-gradient(
+  90deg,
+  hsl(114deg 30% 40%) 0%,
+  hsl(137deg 35% 39%) 14%,
+  hsl(152deg 46% 37%) 29%,
+  hsl(163deg 59% 34%) 43%,
+  hsl(171deg 76% 31%) 57%,
+  hsl(177deg 99% 27%) 71%,
+  hsl(181deg 100% 28%) 86%,
+  hsl(185deg 81% 33%) 100%
+);
+}
+
+.newaccount-gradient {
+  background-image: linear-gradient(
+  90deg,
+  hsl(187deg 34% 52%) 0%,
+  hsl(190deg 38% 51%) 14%,
+  hsl(192deg 41% 51%) 29%,
+  hsl(194deg 44% 51%) 43%,
+  hsl(196deg 47% 51%) 57%,
+  hsl(198deg 49% 51%) 71%,
+  hsl(201deg 50% 52%) 86%,
+  hsl(203deg 51% 53%) 100%
+);
+}
+
+.home-main-gradient {
+  background-image: linear-gradient(
+  45deg,
+  hsl(201deg 81% 33%) 0%,
+  hsl(205deg 69% 36%) 14%,
+  hsl(209deg 60% 39%) 29%,
+  hsl(213deg 52% 42%) 43%,
+  hsl(218deg 45% 45%) 57%,
+  hsl(224deg 38% 47%) 71%,
+  hsl(232deg 32% 50%) 86%,
+  hsl(242deg 30% 51%) 100%
+);
+}
+
+.smart-pay-gradient {
+  background-image: linear-gradient(
+  45deg,
+  hsl(201deg 79% 39%) 0%,
+  hsl(200deg 100% 32%) 14%,
+  hsl(202deg 100% 28%) 29%,
+  hsl(205deg 100% 24%) 43%,
+  hsl(208deg 100% 21%) 57%,
+  hsl(212deg 100% 17%) 71%,
+  hsl(216deg 100% 14%) 86%,
+  hsl(0deg 0% 0%) 100%
+);
+}
+
+.healthy-gradient {
+  background-image: linear-gradient(
+  125deg,
+  hsl(204deg 100% 3%) 0%,
+  hsl(201deg 83% 5%) 23%,
+  hsl(202deg 77% 7%) 35%,
+  hsl(203deg 82% 9%) 44%,
+  hsl(203deg 94% 10%) 52%,
+  hsl(204deg 100% 11%) 59%,
+  hsl(205deg 100% 13%) 66%,
+  hsl(206deg 100% 15%) 74%,
+  hsl(207deg 100% 17%) 84%,
+  hsl(208deg 100% 19%) 100%
+);
+}
+
+.bonus-gradient {
+  background-image: linear-gradient(
+  130deg,
+  hsl(118deg 16% 57%) 0%,
+  hsl(157deg 20% 48%) 23%,
+  hsl(177deg 25% 40%) 47%,
+  hsl(190deg 27% 36%) 69%,
+  hsl(201deg 24% 32%) 88%,
+  hsl(215deg 17% 28%) 100%
+);
+}
+
+.no-fees-gradient {
+  background-image: linear-gradient(
+  45deg,
+  hsl(18deg 84% 50%) 0%,
+  hsl(23deg 86% 50%) 14%,
+  hsl(27deg 88% 51%) 29%,
+  hsl(30deg 90% 52%) 43%,
+  hsl(33deg 92% 54%) 57%,
+  hsl(36deg 93% 56%) 71%,
+  hsl(39deg 94% 58%) 86%,
+  hsl(42deg 95% 61%) 100%
+);
+}
+
+.cashback-gradient {
+  background-image: linear-gradient(
+  90deg,
+  hsl(210deg 55% 44%) 0%,
+  hsl(217deg 43% 48%) 14%,
+  hsl(227deg 37% 52%) 29%,
+  hsl(241deg 32% 55%) 43%,
+  hsl(258deg 32% 54%) 57%,
+  hsl(274deg 31% 52%) 71%,
+  hsl(290deg 29% 50%) 86%,
+  hsl(307deg 32% 49%) 100%
+);
+}
+
+.healthy-bar-1 {
+  margin-top: 74px;
+  height: 46px;
+  width: 26px;
+  background-color: #555;
+  border-radius: 6px;
+}
+
+.healthy-gradient-1{
+  background-image: linear-gradient(
+  180deg,
+  hsl(34deg 69% 53%) 0%,
+  hsl(42deg 70% 48%) 17%,
+  hsl(50deg 78% 43%) 31%,
+  hsl(60deg 82% 38%) 48%,
+  hsl(71deg 77% 42%) 100%
+);}
+
+.healthy-bar-2 {
+  margin-top: 58px;
+  height: 62px;
+  width: 26px;
+  border-radius: 6px;
+}
+
+.healthy-gradient-2{
+  background-image: linear-gradient(
+  180deg,
+  hsl(36deg 75% 60%) 0%,
+  hsl(24deg 83% 65%) 17%,
+  hsl(12deg 84% 69%) 31%,
+  hsl(357deg 75% 71%) 48%,
+  hsl(343deg 60% 66%) 100%
+);}
+
+.healthy-bar-3 {
+  margin-top: 32px;
+  height: 88px;
+  width: 26px;
+  border-radius: 6px;
+}
+
+.healthy-gradient-3{
+  background-image: linear-gradient(
+  180deg,
+  hsl(282deg 28% 61%) 0%,
+  hsl(257deg 31% 64%) 29%,
+  hsl(233deg 35% 65%) 71%,
+  hsl(218deg 41% 63%) 94%,
+  hsl(209deg 43% 60%) 100%
+);}
+
+.healthy-bar-4 {
+  margin-top: 20px;
+  height: 100px;
+  width: 26px;
+  border-radius: 6px;
+}
+
+.healthy-gradient-4{
+  background-image: linear-gradient(
+  180deg,
+  hsl(47deg 99% 68%) 0%,
+  hsl(55deg 67% 65%) 21%,
+  hsl(64deg 49% 64%) 41%,
+  hsl(76deg 39% 65%) 67%,
+  hsl(89deg 27% 65%) 100%
+);}
+
+.healthy-bar-5 {
+  height: 120px;
+  width: 26px;
+  border-radius: 6px;
+}
+
+.circle-grey {
+  box-shadow: 0px 5px 5px rgba(32, 32, 32, 0.1);
+}
+
+.letters-fix {
+  line-height: normal;
+}
+
+.banking-text {
+  background-image: linear-gradient(
+  120deg,
+  hsl(205deg 95% 32%) 0%,
+  hsl(208deg 72% 37%) 23%,
+  hsl(209deg 61% 41%) 35%,
+  hsl(209deg 53% 44%) 44%,
+  hsl(209deg 47% 47%) 52%,
+  hsl(210deg 43% 49%) 59%,
+  hsl(209deg 42% 52%) 66%,
+  hsl(209deg 42% 55%) 74%,
+  hsl(209deg 42% 58%) 84%,
+  hsl(209deg 43% 60%) 100%
+);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.banking-accounts-gradient {
+  background-image: linear-gradient(
+  135deg,
+  hsl(0deg 0% 95%) 0%,
+  hsl(17deg 36% 94%) 18%,
+  hsl(18deg 58% 92%) 31%,
+  hsl(18deg 72% 91%) 42%,
+  hsl(18deg 82% 90%) 53%,
+  hsl(18deg 89% 88%) 62%,
+  hsl(18deg 94% 87%) 71%,
+  hsl(18deg 97% 85%) 80%,
+  hsl(18deg 99% 84%) 90%,
+  hsl(18deg 100% 82%) 100%
+);
+  /* background-image: linear-gradient(
+  180deg,
+  hsl(0deg 0% 100%) 0%,
+  hsl(206deg 19% 99%) 14%,
+  hsl(206deg 19% 98%) 27%,
+  hsl(206deg 20% 97%) 40%,
+  hsl(206deg 20% 96%) 53%,
+  hsl(206deg 20% 95%) 67%,
+  hsl(206deg 20% 94%) 83%,
+  hsl(206deg 20% 93%) 100%
+); */
+}
+
+.banking-accounts-text-gradient {
+  background-image: linear-gradient(
+  135deg,
+  hsl(42deg 95% 61%) 0%,
+  hsl(40deg 91% 60%) 11%,
+  hsl(37deg 88% 58%) 21%,
+  hsl(35deg 84% 57%) 31%,
+  hsl(32deg 81% 55%) 41%,
+  hsl(29deg 78% 54%) 52%,
+  hsl(26deg 75% 52%) 63%,
+  hsl(22deg 72% 50%) 74%,
+  hsl(17deg 75% 48%) 86%,
+  hsl(11deg 79% 46%) 100%
+);
+}
+
+.banking-accounts-grid {
+  display: flex;
+  min-width: 120px;
+  color: #06436F;
+}
+
+.banking-accounts-grid-left {
+  width: 80%;
+  margin: 2px;
+}
+
+
+.banking-accounts-grid-right {
+  width: 20%;
+  margin: 2px;
+}
+
+.mortgage-grid-left {
+  width: 50%;
+  margin: 2px;
+  margin-left: 16px;
+  /* justify-content: end;
+  align-items: end; */
+}
+
+.mortgage-grid-right {
+  width: 50%;
+  margin: 2px;
+}
+
+.three-grid {
+  display: flex;
+  min-width: 120px;
+
+  /* color: red; */
+
+  /* align-items: center; */
+  /* justify-content: center; */
+  
+}
+.three-grid-item {
+  width: 33.33333%;
+  height: 60px;
+  margin: 12px;
+  padding: 30px;
+}
+
+.banking-navbar {
+  width: 200px;
+}
+
+.dashboard-one {
+  /* min-height: 260px; */
+  width: 1060px;
+  padding: 38px;
+  padding-left: 52px;
+  padding-right: 52px;
+  margin: 6px;
+  margin-top: 10px;
+  border-radius: 36px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: left;
+  flex-direction: column;
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+  box-shadow: 0px 2px 0px rgba(52, 52, 52, 0.1);
+  transition: 0.3s;
+}
+
+.dashboard-two {
+  /* min-height: 120px; */
+  width: 526px;
+  padding: 38px;
+  padding-left: 52px;
+  padding-right: 52px;
+  margin: 6px;
+  margin-top: 10px;
+  border-radius: 36px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: left;
+  flex-direction: column;
+  /* background: #fff; */
+  box-shadow: 0px 2px 0px rgba(52, 52, 52, 0.1);
+  transition: 0.3s;
+}
+
+
+
+.banking-dashboard-one {
+  min-height: 260px;
+  width: 1060px;
+  padding: 30px;
+  /* margin-top: 10px; */
+  margin: 10px;
+  border-radius: 36px;
+  display: flex;
+  /* justify-content: center;
+  align-items: left; */
+  flex-direction: column;
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+  box-shadow: 3px 3px 3px rgba(32, 32, 32, 0.1);
+  transition: 0.3s;
+  
+}
+
+.banking-dashboard-two {
+  min-height: 120px;
+  width: 526px;
+  padding: 30px;
+  margin: 6px;
+  margin-top: 10px;
+  border-radius: 36px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  /* background: #fff; */
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+  box-shadow: 0px 2px 0px rgba(52, 52, 52, 0.1);
+  transition: 0.3s;
+}
+
+.banking-dashboard-twoX {
+  min-height: 580px;
+  width: 526px;
+  padding: 30px;
+  margin: 6px;
+  margin-top: 10px;
+  border-radius: 36px;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+
+  flex-direction: column;
+  background: #fff;
+  /* background: #fff; */
+  /* margin: 10px 4px; */
+
+  box-shadow: 0px 2px 0px rgba(52, 52, 52, 0.1);
+  transition: 0.3s;
+}
+
+.input-page-col {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* flex-wrap: wrap; */
+  width: 880px;
+  /* margin-top: 6px;  */
+  background-color: gray;
+}
+
+.main-nav {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-nav-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fafafa;
+}
+
+.main-nav-wrapper h1 {
+  font-size: 2em;
+  margin: 25px 0;
+  text-align: center;
+  font-weight: 600;
+  color: #3C4654;
+}
+
+.main-nav-content-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1280px;
+  margin-top: 6px; 
+}
+
+.second-nav-content-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1080px;
+  margin-top: 6px; 
+}
+
+.third-nav-content-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 880px;
+  margin-top: 6px; 
+}
+
+.main-nav-card {
+  min-height: 260px;
+  width: 410px;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background: #fff; */
+  margin: 10px 4px;
+  box-shadow: 0px 5px 5px rgba(32, 32, 32, 0.1);
+  transition: 0.3s;
+}
+
+.main-nav-card h2{
+  font-size: 1.6em;
+  font-weight: 500;
+  margin-bottom: 12px;
+  /* font-weight: 400; */
+  text-align: center;
+  color: #3C4654;
+}
+
+.main-nav-card p{
+  /* color: #6c757d; */
+  color: #3C4654;
+  text-align: center;
+}
+
+.main-nav-card:hover p{
+  color: #fff;
+}
+
+.main-nav-card:hover h2{
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.main-nav-card:nth-child(1):hover{
+  background: linear-gradient(45deg,
+                            rgba(255,28,8,0.7) 0%,
+                            rgba(255,0,82,0.7) 100%),
+                            url('images/p1.jpg');
+  background-size: cover;
+}
+
+@media(max-width: 991px)
+{
+  .main-nav-wrapper{
+    padding: 25px;
+  }
+  .main-nav-wrapper h1{
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+  .main-nav-content-box{
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-nav-card{
+    min-width: 300px;
+    margin: 10px auto;
+  }
+}
+
+.text-gradient {
+  background-image: linear-gradient(
+  130deg,
+  hsl(116deg 21% 86%) 0%,
+  hsl(127deg 26% 85%) 13%,
+  hsl(136deg 31% 84%) 25%,
+  hsl(143deg 36% 83%) 37%,
+  hsl(150deg 41% 81%) 50%,
+  hsl(155deg 45% 80%) 63%,
+  hsl(160deg 49% 78%) 79%,
+  hsl(165deg 52% 76%) 100%
+);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.hero-gradient {
+  background-image: linear-gradient(
+  0deg,
+  hsl(210deg 21% 93%) 0%,
+  hsl(210deg 21% 93%) 8%,
+  hsl(210deg 21% 94%) 15%,
+  hsl(210deg 21% 94%) 23%,
+  hsl(210deg 21% 95%) 31%,
+  hsl(210deg 21% 95%) 38%,
+  hsl(210deg 21% 96%) 46%,
+  hsl(210deg 21% 97%) 54%,
+  hsl(210deg 21% 97%) 62%,
+  hsl(210deg 21% 98%) 69%,
+  hsl(210deg 21% 98%) 77%,
+  hsl(210deg 21% 99%) 85%,
+  hsl(210deg 21% 99%) 92%,
+  hsl(0deg 0% 100%) 100%
+);
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.feedback-card {
+  background: transparent;
+}
+
+.feedback-card:hover {
+  background: var(--black-gradient);
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+/* .login-box{
+  min-height: 280px;
+  width: 320px;
+  padding: 10px;
+  border-radius: 52px;
+  align-items: center;
+  flex-direction: column;
+  background: #FCFCFC;
+  margin: 10px 32px;
+  box-shadow: 0px 15px 25px rgba(22, 22, 22, 0.2);
+  transition: 0.3s;
+}
+.login-box-container{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 0 10px;
+
+} */
+
+.input-field {
+  border-bottom: 0.2rem solid #AED0EE;
+}
+
+/* .submit-button {
+} */
+
+@font-face {
+  font-family: 'OCRA';
+  src: url('../fonts/OCRA.otf');
+  src: url('../fonts/OCRA.otf?#iefix') format('embedded-opentype'),
+  url('../fonts/OCRA.ttf') format('truetype')
+}
+
+.credit-card {
+  font: 16px/1.5 'Helvetica Neue', Helvetica, sans-serif;
+  height: 270px;
+  width: 425px;
+  padding: 30px;
+  text-align: left;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin: 10px 32px;
+  box-shadow: 0px 15px 15px rgba(88, 88, 88, 0.2);
+}
+
+.credit-card-gradient {
+  background-image: linear-gradient(
+    50deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(212deg 100% 15%) 35%,
+    hsl(205deg 94% 23%) 68%,
+    hsl(201deg 81% 33%) 100%
+  );
+}
+
+.cc-platinum-gradient {
+  background-image: linear-gradient(
+    0deg,
+    hsl(0deg 0% 89%) 0%,
+    hsl(344deg 0% 94%) 52%,
+    hsl(0deg 0% 99%) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+/* .credit-card-bank-square {
+  background: #DDB078;
+  height: 32px;
+  width: 74px;
+  margin-top: -5px;
+  border-radius: 6px;
+} */
+
+.credit-card-bank {
+  /* color: #003D74; */
+  
+  text-align: left;
+  font: 28px 'Aldrich';
+  font-weight: bold;
+  margin-top: 0px;
+  margin-left: 4px;
+  text-shadow: 1px 1px #2C2F3B;
+}
+
+.credit-card-top-right {
+  text-align: right;
+  font: 16px 'Aldrich';
+  padding-top: 2px;
+  padding-right: 2px;
+}
+
+/* .credit-card-number {
+  font-size: 26px;
+  padding: 46px 0 10px;
+  text-align: center;
+  text-shadow: 3px 3px #2C2F3B;
+}
+
+.credit-card-expiry-date {
+  font-size: 14px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px #2C2F3B;
+} */
+
+.credit-card-owner {
+  /* text-align: left; */
+  text-shadow: 2px 2px #2C2F3B;
+  position: relative;
+
+  top: 150px;
+  left: 2px;
+}
+
+.credit-card-logo {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.credit-card-front {
+  font-size: 16px;
+  font-family: 'OCRA';
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
+}
+
+.visa-card-logo{
+  margin: 15vh auto;
+  position: relative;
+  width: 200;
+  height: 200;
+  line-height: 20;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: xx-large;
+  content: '';
+  display: inline-block;
+  width: 200;
+  height: 200;
+
+  top: -384px;
+  left: 300px;
+}
+
+.visa-card-chip {
+  position: absolute;
+  top: 114px;
+  left: 56px;
+  width: 56px;
+  height: 42px;
+  border-radius: 5px;
+  /* background-color: #ffda7b; */
+  overflow: hidden;
+  z-index: 1;
+} 
+
+.visa-card-contactless {
+  position: absolute;
+  right: -121px;
+  top: 107px;
+  transform: scale(0.5);
+  /* color: red; */
+}
+
+.credit-card-chip-line-v1 {
+  border-left: 1px solid #464646;
+  height: 42px;
+  position: absolute;
+  margin-left: 43px;
+  margin-top: 50px;
+  z-index: 2;
+}
+
+.credit-card-chip-line-v2 {
+  border-left: 1px solid #464646;
+  height: 42px;
+  position: absolute;
+  margin-left: 63px;
+  margin-top: 50px;
+  z-index: 2;
+}
+
+.credit-card-chip-line-h1 {
+  border-top: 1px solid #464646;
+  width: 18px;
+  position: absolute;
+  margin-left: 26px;
+  margin-top: 62px;
+  z-index: 3;
+}
+
+.credit-card-chip-line-h2 {
+  border-top: 1px solid #464646;
+  width: 18px;
+  position: absolute;
+  margin-left: 26px;
+  margin-top: 71px;
+  z-index: 3;
+}
+
+.credit-card-chip-line-h3 {
+  border-top: 1px solid #464646;
+  width: 18px;
+  position: absolute;
+  margin-left: 26px;
+  margin-top: 80px;
+  z-index: 3;
+}
+
+.credit-card-chip-line-h3-1 {
+  border-top: 1px solid #464646;
+  width: 18px;
+  position: absolute;
+  margin-left: 64px;
+  margin-top: 62px;
+  z-index: 3;
+}
+
+.credit-card-chip-line-h3-2 {
+  border-top: 1px solid #464646;
+  width: 18px;
+  position: absolute;
+  margin-left: 64px;
+  margin-top: 71px;
+  z-index: 3;
+}
+
+.credit-card-chip-line-h3-3 {
+  border-top: 1px solid #464646;
+  width: 18px;
+  position: absolute;
+  margin-left: 64px;
+  margin-top: 80px;
+  z-index: 3;
+}
+
+.credit-card-chip-line-h4 {
+  border-top: 1px solid #464646;
+  width: 19px;
+  position: absolute;
+  margin-left: 44px;
+  margin-top: 57px;
+  z-index: 3;
+}
+
+.credit-card-chip-line-h5 {
+  border-top: 1px solid #464646;
+  width: 19px;
+  position: absolute;
+  margin-left: 44px;
+  margin-top: 85px;
+  z-index: 3;
+}
+
+.visa-card-logo-gradient {
+  background-image: linear-gradient(
+  90deg,
+  hsl(0deg 0% 57%) 0%,
+  hsl(344deg 0% 65%) 8%,
+  hsl(344deg 0% 73%) 17%,
+  hsl(0deg 0% 81%) 25%,
+  hsl(344deg 0% 84%) 33%,
+  hsl(344deg 0% 87%) 42%,
+  hsl(0deg 0% 90%) 50%,
+  hsl(344deg 0% 87%) 58%,
+  hsl(344deg 0% 84%) 67%,
+  hsl(0deg 0% 81%) 75%,
+  hsl(344deg 0% 73%) 83%,
+  hsl(344deg 0% 65%) 92%,
+  hsl(0deg 0% 57%) 100%
+);
+}
