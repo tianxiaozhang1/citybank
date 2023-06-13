@@ -30,6 +30,6 @@ It also offers Chinese service.
 * Tailwind https://tailwindui.com
 * Vite.js https://vitejs.dev
 
-^ The main interface and various product pages are complete for thr front end, as well as the database setup and internal numerical logic (e.g. calculating principal and interest for each period given a monthly payment). To avoid redundancy, not every function is complete; the connection between the front- and back- ends is fully working and the rest should in a similar way.
+^ The main interface and various product pages are complete for the front end, as well as the database setup and internal numerical logic (e.g. calculating monthly principal and interest for a mortgage). To avoid redundancy, not every function is complete; the connection between the front- and back- ends is fully working and the rest should in a similar way.
 
 Happy banking!
