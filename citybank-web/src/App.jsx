@@ -28,7 +28,6 @@ const App = () => {
             <Router>
                 <Routes>
                     <Route path="/" exact element={<HomePage />}></Route>
-                    {/* <Route path="/old" exact element={<OldHomePage />}></Route> */}
                     <Route path="/signup" exact element={<NewAccountPage />}></Route>
                     <Route path="/banking" exact element={<BankingPage />}></Route>
                     <Route path="/mortgage" exact element={<MortgagePage />}></Route>
@@ -44,38 +43,3 @@ const App = () => {
 };
 
 export default App
-
-
-
-// <div className="w-full overflow-hidden">  
-
-// <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-//     <div className={`${styles.boxWidth}`}>
-//         <LogoBar />
-//     </div>
-// </div>
-
-// <div className={`${styles.paddingX} ${styles.flexCenter} bg-rouLan`}>
-//     <div className={`${styles.boxWidth}`}>
-//         <NavBar />
-//     </div>
-// </div>
-
-// <div className={`bg-slate-50 ${styles.flexCenter}`}>
-//     <div className={`${styles.heroWidth}`}>
-//         <Hero />
-//     </div>
-// </div>
-
-// <div className={`bg-slate-50 ${styles.paddingX} ${styles.flexStart}`}>
-//     <div className={`${styles.boxWidth} mb-6`}>
-//         <MainNav />
-//     </div>
-// </div>
-
-// <div className={` bg-rouLan ${styles.paddingX} ${styles.flexStart}`}>
-//     <div className={`${styles.boxWidth}`}>
-//         <Footer />
-//     </div>
-// </div>
-// </div>
